@@ -28,6 +28,7 @@ export class HighlightingDirective implements OnInit {
     this.highlightTxt('');
   }
 
+  // helper method,
   private highlightTxt(color: string) {
     this.elementRef.nativeElement.style.backgroundColor = color;
   }
